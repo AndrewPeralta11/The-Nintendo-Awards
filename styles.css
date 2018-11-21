@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(to right, red, blue);
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 56.3px;
+    color: #ffffff;
+    background: #fe0016;
+}
+
+h2 {
+    background: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    background: #FFFFFF;
+}
+
+img {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: dotted 10px #DAA520;
+}
+
+.console {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color: blue;
+    font-size: 36px;
+}
+
+.switchgame {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: #e60012;
+    font-size: 36px;
+}
+
+.dsgame {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    color: #00cc00;
+    font-size: 36px;
+}
+
+.developer {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #ff69b4;
+    font-size: 36px;
+}
+
+.waluigi {
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    color: #540674;
+    font-size: 36px;
+}
+
+@keyframes example {
+    0%   {background-color: brown;}
+    25%  {background-color: yellow;}
+    50%  {background-color: pink;}
+    100% {background-color: green;}
+}
+
+img:hover {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
